@@ -1,7 +1,7 @@
 <template>
-  <div class="chat-message">
+    <div class="chat-message">
     <p>{{ message }}</p>
-  </div>
+    </div>
 </template>
 
 <script>
