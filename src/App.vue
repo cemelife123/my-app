@@ -4,39 +4,28 @@
       <ChatChannel/>
       <ChatRoomList />
       <UserList />
+      <DirectMessageList />
       <ChatRoom />
+      <DirectMessage />
       <MessageInput />
     </div>
-</template>
-
-<script>
-import ChatRoom from './components/ChatRoom.vue'
-import MessageInput from './components/MessageInput.vue'
-import ChatRoomList from './components/ChatRoomList.vue'
-import UserList from './components/UserList.vue'
-import ChatChannel from './components/ChatChannel.vue'
-import ChannelList from './components/ChannelList.vue'
-
-export default {
-  name: 'App',
-  components: {
-    ChatRoom,
-    MessageInput,
-    ChatRoomList,
-    UserList,
-    ChatChannel,
-    ChannelList
+  </template>
+  
+  <script>
+  // Import the DirectMessageList component
+  import DirectMessageList from './components/DirectMessageList.vue'
+  // Other imports...
+  
+  export default {
+    name: 'App',
+    components: {
+      // Other components...
+      DirectMessageList
+    }
   }
-}
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  </script>
+  
+  <style>
+  /* Your styles... */
+  </style>
+  
